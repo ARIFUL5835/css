@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background: black;
+}
+#center{
+    background: red;
+    color: black;
+    width: 50%;
+    margin:50% auto;
+    padding: 20px;
+    text-align: center;
+}
+input, lavel{
+    display: block;
+}
+#center h1{
+    font-size: 50px;
+}
+#center h1:after{
+    content: " ";
+    display: block;
+    border-top: 2px solid black;
+    margin: 20px 0px;
+
+}
+form,{
+
+}
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+input[type="submit"]:hover{
+    background-color: transparent;
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+p a:hover{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+    
+}
